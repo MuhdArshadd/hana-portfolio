@@ -1,0 +1,3 @@
+Source: https://github.com/crgimenes/neko
+Revision: 434c51a0beceef5535d7424c18c22678f861127c
+Sprite sheet and animation layout adapted for the portfolio browser component. See LICENSE.txt.

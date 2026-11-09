@@ -1,0 +1,14 @@
+export const linkedin = "https://www.linkedin.com/in/hanahumairaonn/";
+// Add approved public assets here. Missing assets are intentionally not rendered.
+export const resumeUrl: string | null = null;
+export const projects = [
+ { name: "BeWell", category: "SELF-CARE, THOUGHTFULLY BUILT", role: "Mobile App Developer · AI Integrator", description: "A self-care companion bringing voice conversations, journaling, and mood tracking into one mobile experience.", contribution: "Built the application and refined its behavior through UAT, iterative debugging, and real-device testing.", stack: ["Flutter", "PostgreSQL", "WebRTC"], theme: "bewell", symbol: "♡", label: "A little space for yourself.", detail: "Individual final-year project at UTeM. Combined AI-supported features with user-centered prototypes and hands-on device validation." },
+ { name: "HelpLink", category: "TECHNOLOGY FOR COMMUNITY", role: "UI/UX Designer · Front-end Developer", description: "A disaster-management application concept connecting incident reports, shelters, and community support.", contribution: "Researched coordination challenges and translated user needs into accessible prototypes and a Flutter front end.", stack: ["Flutter", "UI/UX", "Figma"], theme: "helplink", symbol: "⌘", label: "Closer together. Better connected.", detail: "A UTeM team project exploring interactive maps, resource coordination, and community support. Focused on clear journeys in time-sensitive situations." },
+ { name: "TourEase", category: "HERITAGE MEETS DISCOVERY", role: "UI/UX Designer · Software Tester", description: "A heritage-exploration and recommendation application that makes discovering Malaysia more intuitive.", contribution: "Used black-box testing to validate features and user journeys, identify functional issues, and help resolve them.", stack: ["Black-box testing", "UI/UX", "User journeys"], theme: "tourease", symbol: "✺", label: "A new way to find your way.", detail: "Developed in the DICRATHON 2024 competition context. Combined accessibility-minded design, user-journey mapping, application testing, and product demonstrations." }
+];
+export const skills = [
+ { title: "Testing & quality", number: "01", items: ["Manual testing", "Regression testing", "Exploratory testing", "Black-box testing", "UAT"] },
+ { title: "Behind the interface", number: "02", items: ["API validation", "Database validation", "Transaction logs", "Jira defect tracking", "Flutter"] },
+ { title: "People & product", number: "03", items: ["Agile / Scrum", "Cross-functional collaboration", "UI/UX awareness", "Figma", "User-centered design"] }
+];
+export const awards = [ ["Gold Award", "iDRIVE’25", "2025"], ["Silver Medal", "International Innovation & Design Expo", "2025"], ["Runner-up", "D’FTMK-A-THON", "2025"], ["Gold Award", "DICRATHON", "2024"] ];

@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.env*
+*.tsbuildinfo
+
+# Internal planning documents — never publish
+01_PROFILE_AND_BRANDING*
+02_WEBSITE_DEVELOPMENT_SPEC_DRAFT*
+
+# Unused personal-use-only font from an earlier design
+public/fonts/lower-pixel*
